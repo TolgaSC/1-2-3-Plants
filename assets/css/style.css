@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Fredericka';
+    src: url('../font/FrederickatheGreat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('../font/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section_one {
+    background: url('../img/bild.jpeg') no-repeat;
+    /* border: 1px solid yellow; */
+    height: 900px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Fredericka';
+    font-size: 30px;
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Fredericka';
+}
+
+p {
+    font-family: 'Open-Sans';
+}
+
+a {
+    font-family: 'Open-Sans';
+    text-decoration: none;
+    /* cursor: pointer; */
+}
+
+.first_h2 {
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.first_p {
+    color: white;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    font-size: 19px;
+}
+
+.button_one {
+    display: block;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    width: 200px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+
+.button_one:hover {
+    background-color: rgb(11, 80, 73);
+}
+
+nav {
+    text-align: right;
+    margin-top: 150px;
+    list-style: none;
+}
+
+.nav_one, .nav_two, .nav_three {
+    color: white;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+
+.second_h2 {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.second_p {
+    color: black;
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.section_three {
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    padding: 1px;
+    margin: 0px auto;
+}
+
+.article_three {
+    border: 1px solid rgb(11, 80, 73);
+    padding: 20px;
+}
+
+.telnumber {
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    height: 100px;
+}
+
+.section_four {
+    background-color: rgb(11, 80, 73);
+    height: 5%;
+    color: white;
+}
+
+.four_p {
+    text-align: left;
+    width: 600px;
+    margin-left: 10px;
+    padding: 20px
+}
+
+.find_us {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    border: 1px solid white;
+    padding: 20px 40px 20px 40px;
+}
+
+.find_us:hover {
+    background-color: white;
+    color: rgb(11, 80, 73);
+}
+
+footer {
+    text-align: right;
+    background-color: rgb(11, 80, 73);
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+
+
